@@ -1,0 +1,83 @@
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* Header styles */
+header {
+	background-color: #565f56;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Section styles */
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+.profile-img {
+	flex: 1;
+	max-width: 400px;
+}
+
+.profile-img img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.personal-info {
+	flex: 1;
+	max-width: 400px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+a {
+	display: inline-block;
+	background-color: #48bb48;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+a:hover {
+	background-color: #555;
+}
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
